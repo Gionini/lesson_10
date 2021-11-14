@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: aqua;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.box {
+    width: 150px;
+    background-color: saddlebrown;
+    margin: 0 10px;
+}
+.logo {
+    height: 100px;
+    display: block;
+}
+.logo img {
+    height: 100%;
+}
+
+.burger {
+    display: none;
+    height: 100px;s
+}
+/* aq aris resoluciebi sxvadasxva divaisze rogor qnas */
+@media (max-width  :1024px){
+    .container {
+        background-color: greenyellow;
+    }
+}
+@media (max-width :720px){
+    .container {
+        background-color: grey;
+    }
+}
+@media (max-width :480px){
+    .container {
+        background-color: blue   ;
+    }
+    nav {
+        display: none ;
+    }
+    .burger {
+        display: block;
+    }
+}
