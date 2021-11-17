@@ -15,4 +15,8 @@
 
 .social {
     height: 120px;
-    border-bottom: 1px rgba(0,0,0,0.12) solid;
+    border-bottom: 1px rgba(0,0,0,0.12) solid; 
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    
