@@ -5,8 +5,9 @@
     margin-top: 30px;
 }
 .main-image {
-    width: 800px;
+    width: 100%;
     height: 455px;
+    vertical-align: middle;
 }
 .logo {
     width: 40px;
@@ -18,5 +19,39 @@
     border-bottom: 1px rgba(0,0,0,0.12) solid; 
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    padding-left: 50px;
+    background-color: white;
     
+}
+.text-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.text-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,0.54);
+}
+.sc {
+    margin-left: 25PX;
+}
+
+
+
+
+
+
+/* body {
+    background-image: url(../image/image_gvino.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+} */
+
+
+
+/* font-family: 'Roboto', sans-serif; */
